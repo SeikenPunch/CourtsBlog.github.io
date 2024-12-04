@@ -1,45 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <title> CMMBlog </title>
+    <title> Court's Corner </title>
 </head>
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Petit+Formal+Script&display=swap" rel="stylesheet">
 
+
 <link rel="stylesheet" href="css/style.css">
 
 <body style="margin: 0;">
-    <!-- <div id="sticky">
-        <nav class="introBox">
-            <h1 class="box"> Homeschooling </h1>
-            <h1 class="box"> Recipes </h1>
-            <h1 class="box"> My Outfits </h1>
-            <h1 class="box"> Beauty </h1>
-        </nav>
-    </div> -->
+    
+    <div class="offScreenMenu">
+        <!-- <ul><a id="menuLinks" href="beauty.html">Beauty</a></ul> -->
+        <ul><a id="menuLinks" href="outfits.html">Outfits</a></ul>
+        <ul><a id="menuLinks" href="travel.html">Travel</a></ul>
+        <ul><a id="menuLinks" href="recipes.html">Recipes</a></ul>
+        <!-- <ul><a id="menuLinks" href="motherhood.html">Motherhood</a></ul> -->
+        <!-- <ul><a id="menuLinks" href="partnerships.html">Partnerships</a></ul> -->
+        <ul><a id="selectedMenuLink" href="index.html">About</a></ul>
+        <!-- <ul><a id="menuLinks" href="contact.html">Contact</a></ul> -->
+    </div>
 
-    <div class="mainIntro" style="padding-top: 70px;">
+    <nav>
+        <div class="hamMenu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <div class="mainContainer">
+        <div class="subContainer">
         
             <img id="introPic" src="images/titlePic.jpg">
-            <h1 class="cursiveText" style="font-size: 50px;"> Courtney McKenzie </h1>
-            <p id="intro"> Welcome to my blog! Intro Here</p>
-        
-    </div>
+            
+        </div>
+        <div class="subContainer">
+            <h1 class="cursiveText" style="font-size: 50px; text-align: center;"> Courtney McKenzie </h1>
+        </div>
+        <div class="subContainer">
+            <p id="intro" style="width: 80vmin; text-align: center; justify-content: center;"> 
+                Welcome to my blog! Here you can find my homemade recipes, 
+                favorite beauty products, homeschooling ideas, outfit details, travel 
+                guides, tutorials, and more! Click the “sign up” button to subscribe 
+                to my monthly newsletter where I share updated blog and social media 
+                information.
+            </p>
+        </div>
 
+        <div class="subContainer" style="padding-top: 5vmin;">
+            <h1 class="cursiveText" style="font-size: 36px;"> Meet Courtney </h1>
+        </div>
+
+        <div class="subContainer" style="margin-left: 10vmin; margin-right: 10vmin;">
+            <p style="font-size: 3vmin; text-align: center;">
+                Hi, my name is Courtney! I'm a 23 year old stay at home mom living 
+                in the Pacific Northwest. My husband and I met in high school, are now 
+                married, have two dogs, and a beautiful daughter! He is getting his 
+                degree in Computer Science, and I am currently finishing up mine 
+                in Elementary Education with an emphasis on Early Childhood Development. 
+            </p>
+        </div>
+
+        <div class="subContainer" style="margin-left: 10vmin; margin-right: 10vmin;">
+            <p style="font-size: 3vmin; text-align: center;">
+                We have brought our passions together to start our homeschooling activities 
+                business called Wee Wisdom Co., and now we've put together my blog! I'll 
+                be using this blog to share more about my from scratch recipes, beauty, 
+                fashion, travel, motherhood, and more!
+            </p>
+        </div>
+
+        <div class="subContainer" style="padding-top: 75px;">
+            <h1 class="cursiveText">
+                Work With Courtney
+            </h1>
+            
+        </div>
+
+        <div class="subContainer">
+            <p1>
+                If you're interested in working with Courtney, please send all inquiries to
+            </p1>
+        </div>
+        <div class="subContainer">
+            <a href="mailto:mgmt.courtneymckenzie@gmail.com" target="_blank"> mgmt.courtnermckenzie@gmail.com</a>
+        </div>
+        <div class="subContainer" style="margin-left: 15vmin; margin-right: 15vmin; padding-top: 10vmin;">
+            <h1 id="paraBox" style="text-align: center;">
+                Looking for a product as seen on my socials?
+                Tap the link to check out all of my favorites!
+            </h1>
+        </div>
+
+        <div class="subContainer">
+            <a href="https://shopmy.us/courtmckenzie" target="_blank"> link to ShopMy</a>
+        </div>
+
+    </div>
     
-
-    <div class="aboutMe" style="padding-top: 75px;">
-        <h1 class="cursiveText" style="font-size: 36px;"> About Me </h1>
-        <p style="font-size: 16px;">
-            Lorem ipsum odor amet, consectetuer adipiscing elit. Euismod hendrerit rhoncus aptent 
-            vivamus tortor justo, finibus imperdiet nec. Interdum vitae fames hendrerit fermentum nunc odio. 
-            Ex lobortis bibendum consequat porta montes pellentesque. Curabitur dignissim suscipit tellus suspendisse 
-            donec ac donec vivamus. Sed inceptos bibendum ullamcorper fermentum enim tempor facilisis. 
-            Leo nibh facilisis arcu magnis bibendum magna molestie. Lectus a dignissim erat primis; 
-            morbi sodales nullam? Convallis blandit maximus primis imperdiet egestas dictum urna adipiscing lacus.
-        </p>
-    </div>
+    <script src="js/index.js"></script>
 </body>
+</html>
